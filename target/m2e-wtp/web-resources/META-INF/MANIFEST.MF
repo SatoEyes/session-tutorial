@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 17
+Implementation-Title: session-tutorial-init-web
+Implementation-Version: 5.7.1.SP1.RELEASE
+Implementation-Vendor: TERASOLUNA Framework Team
+Created-By: Maven Integration for Eclipse
+

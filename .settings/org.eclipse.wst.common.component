@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+        
+    <wb-module deploy-name="session-tutorial-init-web">
+                
+        <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
+                
+        <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/generated/java"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+                
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/target/generated-sources/annotations"/>
+        <dependent-module archiveName="session-tutorial-init-domain-5.7.1.SP1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/session-tutorial-init-domain/session-tutorial-init-domain">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="session-tutorial-init-env-5.7.1.SP1.RELEASE.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/session-tutorial-init-env/session-tutorial-init-env">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+                
+        <property name="context-root" value="session-tutorial-init-web"/>
+                
+        <property name="java-output-path" value="/session-tutorial-init-web/target/classes"/>
+            
+    </wb-module>
+    
+</project-modules>
